@@ -1,0 +1,31 @@
+.skills{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(250, 213, 125);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    .skills_title_div{
+        p{
+            font-size: 90px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+    }
+    .skills_list{
+        display: flex;
+        ul{
+            margin-top: 40px;
+            li{
+                font-family: 'Bebas Neue', sans-serif;
+                font-size: 60px;
+                list-style: none;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .line-1 {
+                height: 3px;
+                background: black;
+              }
+        }
+    }
+}

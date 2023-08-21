@@ -1,3 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 h1 {
-  font-size: 20px;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: rgb(233, 181, 61);
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 253, 252);
+  top: 0px;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.cover {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cover .cover_img img {
+  width: 520px;
+  height: 540px;
+  border-radius: 25% 75% 25% 75%/75% 38% 62% 25%;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+.skills {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(250, 213, 125);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.skills .skills_title_div p {
+  font-size: 90px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.skills .skills_list {
+  display: flex;
+}
+.skills .skills_list ul {
+  margin-top: 40px;
+}
+.skills .skills_list ul li {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skills .skills_list ul .line-1 {
+  height: 3px;
+  background: black;
+}
+
+.projects {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.projects .projects_title_div p {
+  font-size: 90px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.projects .projects_list ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+.projects .projects_list ul li {
+  list-style: none;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.projects .projects_list ul li img {
+  height: 300px;
+  width: 370px;
+  border-radius: 10px;
 }
