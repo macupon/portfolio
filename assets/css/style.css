@@ -162,3 +162,34 @@ body {
   height: 3px;
   background: black;
 }
+.courses .content_certificate2, .courses .content_certificate3, .courses .content_certificate1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.courses .content_certificate2 .certificate2_div, .courses .content_certificate2 .certificate3_div, .courses .content_certificate2 .certificate1_div, .courses .content_certificate3 .certificate2_div, .courses .content_certificate3 .certificate3_div, .courses .content_certificate3 .certificate1_div, .courses .content_certificate1 .certificate2_div, .courses .content_certificate1 .certificate3_div, .courses .content_certificate1 .certificate1_div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.courses .content_certificate2 .certificate2_div img, .courses .content_certificate2 .certificate3_div img, .courses .content_certificate2 .certificate1_div img, .courses .content_certificate3 .certificate2_div img, .courses .content_certificate3 .certificate3_div img, .courses .content_certificate3 .certificate1_div img, .courses .content_certificate1 .certificate2_div img, .courses .content_certificate1 .certificate3_div img, .courses .content_certificate1 .certificate1_div img {
+  width: 500px;
+  height: auto;
+}
+.courses .content_certificate2 .certificate2_div .close, .courses .content_certificate2 .certificate3_div .close, .courses .content_certificate2 .certificate1_div .close, .courses .content_certificate3 .certificate2_div .close, .courses .content_certificate3 .certificate3_div .close, .courses .content_certificate3 .certificate1_div .close, .courses .content_certificate1 .certificate2_div .close, .courses .content_certificate1 .certificate3_div .close, .courses .content_certificate1 .certificate1_div .close {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
