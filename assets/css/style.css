@@ -87,6 +87,42 @@ body {
   background: black;
 }
 
+.skills2 {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(250, 213, 125);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills2 .skills_title_div2 p {
+  font-size: 90px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.skills2 .skills_list2 ul {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.skills2 .skills_list2 ul img {
+  width: 64px;
+  height: 64px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.skills2 .skills_list2 ul li {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.skills2 .skills_list2 ul .line-1 {
+  height: 3px;
+  background: black;
+}
+
 .projects {
   width: 100%;
   height: 500px;
